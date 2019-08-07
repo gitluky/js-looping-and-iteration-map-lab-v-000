@@ -20,7 +20,7 @@ function nameToAttributes (drivers) {
       }
       i++;
     }
-    
+    console.log(i);
     return Object.assign({}, { firstName: driver.slice(0,i) }, { lastName: driver.slice(i+1) });
 
   })
