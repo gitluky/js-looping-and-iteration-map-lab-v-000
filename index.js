@@ -10,10 +10,10 @@ function nameToAttributes (drivers) {
   const driversObject = []
   let firstName = ''
   let lastName = ''
-  
+
   drivers.map( function (driver) {
-    
-    let i = 0;  
+
+    let i = 0;
     while (i < driver.length){
       if (driver[i] === " ") {
         break;
